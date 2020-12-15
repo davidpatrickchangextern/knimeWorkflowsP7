@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0326.1623                               -->
+<workbook original-version='18.1' source-build='2020.1.2 (20201.20.0326.1623)' source-platform='win' version='18.1' xml:base='https://tableau.fhm.de' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneFriendlyName />
+  </document-format-change-manifest>
+  <repository-location id='1MasterTemplateVerticalP7' path='/t/OPsCSDashboard/workbooks' revision='1.5' site='OPsCSDashboard' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources />
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{53BC637B-A0D9-4C68-BB5D-1419F02BB3FD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='2000' maxwidth='1920' minheight='2000' minwidth='1035' sizing-mode='range' />
+      <zones>
+        <zone friendly-name='Mainframe' h='100000' id='9' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='8' param='vert' type='layout-flow' w='100000' x='0' y='0'>
+            <zone fixed-size='143' friendly-name='Header' h='7150' id='20' is-fixed='true' param='horz' type='layout-flow' w='99036' x='482' y='400'>
+              <zone fixed-size='817' h='5550' id='12' is-fixed='true' layout-strategy-id='distribute-evenly' param='vert' type='layout-flow' w='49247' x='1446' y='1200'>
+                <zone forceUpdate='true' h='2800' id='14' type='text' w='49246' x='1447' y='1200'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontsize='22'>Subtitle</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='16' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2750' id='13' type='text' w='49246' x='1447' y='4000'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontsize='36'>Title title title</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='margin-left' value='16' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='5550' id='108' type='empty' w='15592' x='50693' y='1200'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='5550' id='104' type='empty' w='15592' x='66285' y='1200'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='5550' id='23' is-scaled='1' param='C:/Users/cha0002d/Downloads/SevenOne_BM_Red_pos_RGB.svg' type='bitmap' w='16677' x='81877' y='1200'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='padding' value='16' />
+                <format attr='background-color' value='#380011' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='356' friendly-name='Top KPIs' h='17800' id='24' is-fixed='true' param='horz' type='layout-flow' w='99036' x='482' y='7550'>
+              <zone h='16200' id='25' param='horz' type='layout-flow' w='32369' x='1446' y='8350'>
+                <zone h='16200' id='26' type='empty' w='32369' x='1446' y='8350'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='16200' id='27' type='empty' w='32369' x='33815' y='8350'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#ffffff' />
+                </zone-style>
+              </zone>
+              <zone h='16200' id='28' type='empty' w='32369' x='66184' y='8350'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#ffffff' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='padding' value='16' />
+                <format attr='background-color' value='#380011' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='54' friendly-name='Scopebar' h='2700' id='37' is-fixed='true' param='horz' type='layout-flow' w='99036' x='482' y='25350'>
+              <zone forceUpdate='true' h='2700' id='38' type='text' w='31666' x='2109' y='25350'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontcolor='#00ffcf' fontsize='16'>KPI 1: 34.654 (90%) von 40.235</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='2700' id='39' type='text' w='31666' x='33775' y='25350'>
+                <formatted-text>
+                  <run bold='true' fontalignment='1' fontcolor='#00ffcf' fontsize='16'>KPI 2: 34.654 (90%) von 40.235</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                </zone-style>
+              </zone>
+              <zone h='2700' id='41' type='empty' w='32148' x='65441' y='25350'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='0' />
+                <format attr='padding-right' value='32' />
+                <format attr='padding-left' value='27' />
+                <format attr='background-color' value='#000000' />
+              </zone-style>
+            </zone>
+            <zone friendly-name='Filterbar' h='10050' id='72' param='vert' type='layout-flow' w='99036' x='482' y='28050'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='background-color' value='#555555' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='1172' h='59000' id='10' is-fixed='true' type='empty' w='99036' x='482' y='38100'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='50' friendly-name='Footer' h='2500' id='81' is-fixed='true' param='horz' type='layout-flow' w='99036' x='482' y='97100'>
+              <zone forceUpdate='true' h='2500' id='85' type='text' w='30681' x='482' y='97100'>
+                <formatted-text>
+                  <run fontalignment='1' fontcolor='#ffffff' fontsize='12'>Last updated DD-MM-YYYY</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='2500' id='86' type='text' w='34297' x='31163' y='97100'>
+                <formatted-text>
+                  <run fontalignment='1' fontcolor='#ffffff' fontsize='12'>Data Source: Wilson Reporting Schema</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='2500' id='84' type='text' w='34056' x='65460' y='97100'>
+                <formatted-text>
+                  <run fontalignment='1' fontcolor='#ffffff' fontsize='12'>Contact: Thomas Raab | David Chang (BI-Engineer)</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='background-color' value='#333333' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='8' />
+              <format attr='background-color' value='#c0c0c0' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='0' />
+            <format attr='background-color' value='#e6e6e6' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='118' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99200' id='117' param='vert' type='layout-flow' w='99036' x='482' y='400'>
+                <zone forceUpdate='true' h='2800' id='14' type='text' w='49246' x='1447' y='1200'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontsize='22'>Subtitle</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='103' forceUpdate='true' h='5550' id='23' is-fixed='true' is-scaled='1' param='C:/Users/cha0002d/Downloads/SevenOne_BM_Red_pos_RGB.svg' type='bitmap' w='16677' x='81877' y='1200'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2750' id='13' type='text' w='49246' x='1447' y='4000'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#ffffff' fontsize='36'>Title title title</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2700' id='38' type='text' w='31666' x='2109' y='25350'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#00ffcf' fontsize='16'>KPI 1: 34.654 (90%) von 40.235</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2700' id='39' type='text' w='31666' x='33775' y='25350'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#00ffcf' fontsize='16'>KPI 2: 34.654 (90%) von 40.235</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2500' id='85' type='text' w='30681' x='482' y='97100'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontsize='12'>Last updated DD-MM-YYYY</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2500' id='86' type='text' w='34297' x='31163' y='97100'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontsize='12'>Data Source: Wilson Reporting Schema</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2500' id='84' type='text' w='34056' x='65460' y='97100'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontsize='12'>Contact: Thomas Raab | David Chang (BI-Engineer)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9ACB7DFE-FCD0-4CB8-9418-36B8DF60DD76}' />
+    </dashboard>
+  </dashboards>
+  <windows>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D745530C-4E35-4C3E-A53E-DE85D83B0C8A}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints />
+      <active id='41' />
+      <device-preview visible='true'>
+        <device name='Medium Desktop Monitor' type='Desktop' />
+      </device-preview>
+      <simple-id uuid='{1F456349-4C44-445B-B1BB-5C13A8304BD7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
